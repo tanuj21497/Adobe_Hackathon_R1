@@ -76,4 +76,22 @@ Using step 2 conditions we will be able to write a code which will generate CSV 
 
 To remove this discrepancy, I added if it fails to find tax value then put 10.
 
-**T
+
+## **How to Run**
+![image](https://github.com/tanuj21497/Adobe_Hackathon_R1/assets/108824263/c23d3ec6-1356-4542-b39e-f9175e1fedb5)
+
+
+**NOTE: Make sure to run the code by changing the directory to where that code actually is.**
+
+**Or**
+
+**by right-clicking inside that folder and clicking on open with the code.**
+
+**MAKING\_JSON** contains PDFs of samples, extracts API code, credentials, and private key Although I believe in Adobe's authorities, that’s why giving private key and credentials :) **Running extract\_txt\_table\_info\_with\_table\_structure\_from\_pdf.py** will make folders containing JSON Files.
+
+**WITH\_JSON\_ONE\_GO** contains actual code written by me named as “**hackathon.py”**, **RUN THIS FILE TO CHECK MY CODE WORKING.** It already contains folders containing JSON files and will generate “ExtractedData.csv”.
+
+**WITHOUT\_JSON\_ONE\_GO** contains PDFs, which will be converted by **“extract\_txt\_table\_info\_with\_table\_structure\_from\_pdf.py” to JSON Files containing folders and Automatically Run “hackathon.py”** as well, which will later generate **“ExtractedData.csv”.**
+
+**DOCUMENTATION.pdf** contains my approach to the problem statement.
+
